@@ -11,5 +11,9 @@ while(true) do
         while(not turtle.detectDown()) do
             turtle.down()
         end
+        else
+        if not has_block then
+            turtle.forward()
+        end
     end
 end
